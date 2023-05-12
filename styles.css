@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: #d3d3d3da;
+}
+
+.Header{
+    font-family: "Sacramento";
+    margin-top: 3rem;
+    font-size: larger;
+}
+
+.main_contain{
+    margin-top: 1rem;
+}
+
+.player_box{
+    display: inline-block;
+    background: linear-gradient(270deg, #18122b,#393053);
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px black;
+}
+
+.player1_info, .player2_info{
+    display: inline-block;
+    margin: 5rem 5rem 3rem;
+    font-family: "Sacramento";
+    font-size: 2rem;
+
+}
+
+.player_txt{
+    margin-bottom: 1rem;
+}
+
+.btns{
+    margin-bottom: 1rem;
+}
+
+.roll_btn{
+    
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    outline: none;
+    border: none;    
+    background-color: #393053;
+    color: #fff;
+    font-size: large;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.roll_btn:hover{
+    background: #635985;
+    box-shadow: 5px 5px 20px black;
+}
+
+.footer{
+    margin-top: 2rem;
+    font-size: 13px;
+}
+
+.dots{
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    padding: 2px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.438);
+}
+
+.dot_cont{
+    display: inline-block;
+}
+
+.player_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px
+}
+
+.num2, .num8 ,.num5{
+    visibility: hidden;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
